@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="avatar-container">
+          <img
+            src="/avatar/felipe.png"
+            alt="avatar"
+            class="avatar"
+            id="avatarPreview"
+          />
+        </div>
+
+        <div class="description-container">
+          <h2>Descripción del CV</h2>
+          <p>
+            Tecnologo en seguridad y salud en el trabajo
+          </p>
+        </div>
+
+        <div class="contact-container">
+          <p>📞 43 564 146 23</p>
+        </div>
+
+        <div class="links-container">
+          <a href="education.html" class="link-card"> Educación </a>
+          <a href="experience.html" class="link-card"> Experiencia </a>
+        </div>
+
+        <button id="downloadBtn" class="link-card">Descargar CV en PDF</button>
+      </div>
+    </section>
+  </body>
+</html>
